@@ -19,21 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5018179f-9ee4-4da7-b9bf-f24d77ba24d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/todo-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-list/src/app/input-button/input-button.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-list/src/app/input-button/input-button.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-list/src/app/input-button/input-button.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-list/src/app/input-button/input-button.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/package.json" afterDir="false" />
+    <list default="true" id="5018179f-9ee4-4da7-b9bf-f24d77ba24d0" name="Default Changelist" comment="added input button component">
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/interfaces/todo-item.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/services/storage.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/services/storage.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/services/todo-list.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/services/todo-list.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/todo-item/todo-item.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/todo-item/todo-item.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/todo-item/todo-item.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-list/src/app/todo-item/todo-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo-list/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo-list/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/app/input-button/input-button.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/src/app/input-button/input-button.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/app/input-button/input-button.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/src/app/input-button/input-button.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Pika\WebstormProjects\todo-app\todo-list\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,8 +73,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607460149775</updated>
-      <workItem from="1607460152939" duration="638000" />
+      <workItem from="1607460152939" duration="6260000" />
     </task>
+    <task id="LOCAL-00001" summary="added input button component">
+      <created>1607460841675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607460841675</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added input button component">
+      <created>1607460909552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607460909552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,8 +108,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added input button component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added input button component" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1607460970918">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1607460970918" />
     <state x="479" y="150" width="578" height="534" key="find.popup" timestamp="1607460326289">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
