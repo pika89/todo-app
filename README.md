@@ -2,9 +2,46 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.0-next.1.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Purpose
+
+The idea is to **demonstrate how to write a typical, non-trivial CRUD application using Angular**. 
+
+
+## Installation
+
+### Platform & tools
+
+You need to install Node.js and then the development tools. Node.js comes with a package manager called [npm](http://npmjs.org) for installing NodeJS applications and libraries.
+* [Install node.js](http://nodejs.org/download/) (requires node.js version >= 0.8.4)
+
+### Get the Code
+
+Either clone this repository or fork it on GitHub and clone your fork:
+
+```
+git clone https://github.com/pika89/todo-app.git
+```
+
+### Client App
+
+* Install local dependencies (from the project root folder):
+
+    ```
+    npm install
+    ```
+
+  (This will install the dependencies declared in the client/package.json file)
+
+## Running
+### Development server
+* Run the server
+
+    ```
+    npm start
+    ```
+* Browse to the application at [http://localhost:4200]
+
 
 ## Code scaffolding
 
@@ -22,6 +59,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+***
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
