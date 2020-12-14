@@ -6,6 +6,7 @@ describe('InputButtonComponent', () => {
   let component: InputButtonComponent;
   let fixture: ComponentFixture<InputButtonComponent>;
 
+  // @ts-ignore
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ InputButtonComponent ]
